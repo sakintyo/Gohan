@@ -1,0 +1,13 @@
+<%= form_for @tweet do |f| %>
+  <%= f.label :お店の名前 %>
+  <%= f.text_field :omise, :size => 140 %> 
+　<%= f.label :場所 %>
+  <%= f.text_field :basho, :size => 140 %> 
+  <%= f.label :価格帯 %>
+  <%= f.text_field :nedan, :size => 140 %> 
+  <%= f.label :お店の説明 %>
+  <%= f.text_field :setumei, :size => 140 %> 
+  <%= f.label :感想 %>
+  <%= f.text_field :kansou, :size => 140 %> 
+  <%= f.submit "編集する" %>
+<% end %>
