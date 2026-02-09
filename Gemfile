@@ -58,7 +58,7 @@ group :test do
 end
 
  gem 'carrierwave' , '~> 1.3' ,  '>= 1.3.1'
- gem 'cloudinary' , '2.1.2'
+ gem 'cloudinary' , '2.4.4'
  gem 'devise'
  gem 'sass-rails'
 
